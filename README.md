@@ -1,5 +1,13 @@
 # 📈 Mock BSE Internal Portal
 
+![Java](https://img.shields.io/badge/Java-21-orange)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen)
+![React](https://img.shields.io/badge/React-19-blue)
+![MySQL](https://img.shields.io/badge/MySQL-Database-blue)
+![Vercel](https://img.shields.io/badge/Frontend-Vercel-black)
+![Render](https://img.shields.io/badge/Backend-Render-46E3B7)
+
+
 A full-stack **Employee–Client–Trade Management System** built using **Spring Boot**, **React**, **MySQL**, and **Server-Sent Events (SSE)**.
 
 This project simulates an internal brokerage portal where employees manage clients, their stock market trades, and incentives. It also includes a **Mock BSE API** that behaves like a real external stock exchange by introducing configurable delays, random failures, and real-time updates using Server-Sent Events.
@@ -78,16 +86,11 @@ Calculate employee incentives based on brokerage earned from client trades.
 
 ---
 
-## 🏦 Mock BSE Simulation
+## ☁️ Deployment
 
-The project includes a simulated external BSE service demonstrating:
-
-- Artificial API Delay
-- Random API Failure
-- Retry Mechanism
-- Loading Spinner
-- Automatic Refresh
-- Real-Time Updates using Server-Sent Events (SSE)
+- Frontend deployed on Vercel
+- Backend deployed on Render
+- Live full-stack application
 
 ---
 
@@ -250,7 +253,10 @@ Features include:
 
 ---
 
+
 # 📷 Screenshots
+
+> **Note:** The following screenshots were taken from the local development environment for consistency. The project has been successfully deployed and can be accessed through the live links in the **Live Demo** section.
 
 ## Dashboard
 
@@ -332,6 +338,16 @@ Features include:
 
 # 💻 Installation
 
+## Prerequisites
+
+Before running the project, make sure you have the following installed:
+
+- Java 21
+- Maven
+- MySQL
+- Node.js
+- npm
+
 ## Clone Repository
 
 ```bash
@@ -356,8 +372,14 @@ CREATE DATABASE mock_bse_api;
 
 Update your database credentials in:
 
-```text
-src/main/resources/application.properties
+`src/main/resources/application.properties`
+
+Example:
+
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/mock_bse_api
+spring.datasource.username=YOUR_USERNAME
+spring.datasource.password=YOUR_PASSWORD
 ```
 
 Run the Spring Boot application using your IDE or:
@@ -392,13 +414,11 @@ npm run dev
 
 # 🌐 Live Demo
 
-Frontend
+### Frontend
+https://fullstack-mock-bse.vercel.app
 
-Coming Soon
-
-Backend
-
-Coming Soon
+### Backend
+https://fullstack-mock-bse.onrender.com
 
 ---
 
