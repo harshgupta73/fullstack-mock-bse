@@ -123,7 +123,7 @@ const Employees = () => {
 
             <div className="d-flex justify-content-between align-items-center mb-3">
 
-                <Link to="/" className="btn btn-primary mb-3">
+                <Link to="/" className="btn btn-primary">
                     ← Dashboard
                 </Link>                
 
