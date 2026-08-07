@@ -20,7 +20,7 @@ public class CorsConfig {
                         .allowedOrigins(
                                 "http://localhost:5173",
                                 "http://localhost:5174",
-                                "https://your-frontend-url.onrender.com"
+                                "https://fullstack-mock-bse.vercel.app"
                         )
                         .allowedMethods("*")
                         .allowedHeaders("*");
