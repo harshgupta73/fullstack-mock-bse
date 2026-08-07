@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import clientService from "../services/clientService";
 import Pagination from "../components/Pagination";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Clients = () => {
 
@@ -122,6 +123,10 @@ const Clients = () => {
         <div className="container mt-4">
 
             <div className="d-flex justify-content-between align-items-center mb-3">
+
+                <Link to="/" className="btn btn-primary mb-3">
+                    ← Dashboard
+                </Link>
 
                 <h2>Clients</h2>
 

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import clientService from "../services/clientService";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const AddClient = () => {
 
@@ -53,6 +54,10 @@ const AddClient = () => {
     return (
 
         <div className="container mt-4">
+
+            <Link to="/" className="btn btn-primary mb-3">
+                ← Dashboard
+            </Link>
 
             <h2 className="mb-4">Add Client</h2>
 

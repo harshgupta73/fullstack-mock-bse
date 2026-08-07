@@ -4,6 +4,7 @@ import mockBseService from "../services/mockBseService";
 import clientService from "../services/clientService";
 
 import Pagination from "../components/Pagination";
+import { Link } from "react-router-dom";
 
 const MockBseTrades = () => {
 
@@ -113,6 +114,10 @@ const MockBseTrades = () => {
       <div className="container mt-4">
 
           <div className="d-flex justify-content-between align-items-center mb-3">
+
+            <Link to="/" className="btn btn-primary mb-3">
+                ← Dashboard
+            </Link>            
 
             <h2>Mock BSE Trades</h2>
 

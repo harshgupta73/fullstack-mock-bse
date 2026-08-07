@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import employeeService from "../services/employeeService";
+import { Link } from "react-router-dom";
 
 const Incentives = () => {
   
@@ -82,6 +83,10 @@ const Incentives = () => {
   return (
 
     <div className="container mt-4">
+
+        <Link to="/" className="btn btn-primary mb-3">
+            ← Dashboard
+        </Link>
 
         <h2 className="mb-4">Employee Incentive</h2>
 

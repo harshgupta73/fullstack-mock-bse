@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import employeeService from "../services/employeeService";
 import myClientService from "../services/myClientService";
+import { Link } from "react-router-dom";
 
 const MyClients = () => {
 
@@ -84,6 +85,10 @@ const MyClients = () => {
     return (
 
       <div className="container mt-4">
+
+          <Link to="/" className="btn btn-primary mb-3">
+                ← Dashboard
+          </Link>        
 
           <h2 className="mb-4">My Clients</h2>
 

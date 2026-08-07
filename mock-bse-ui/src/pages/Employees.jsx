@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import employeeService from "../services/employeeService";
 import Pagination from "../components/Pagination";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Employees = () => {
 
@@ -121,6 +122,10 @@ const Employees = () => {
 
 
             <div className="d-flex justify-content-between align-items-center mb-3">
+
+                <Link to="/" className="btn btn-primary mb-3">
+                    ← Dashboard
+                </Link>                
 
                 <h2>Employees</h2>
 

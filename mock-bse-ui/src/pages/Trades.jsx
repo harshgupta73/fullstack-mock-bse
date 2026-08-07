@@ -5,6 +5,7 @@ import tradeService from "../services/tradeService";
 import clientService from "../services/clientService";
 
 import Pagination from "../components/Pagination";
+import { Link } from "react-router-dom";
 
 const Trades = () => {
 
@@ -143,6 +144,10 @@ const Trades = () => {
       <div className="container mt-4">
 
           <div className="d-flex justify-content-between align-items-center mb-3">
+
+                <Link to="/" className="btn btn-primary mb-3">
+                    ← Dashboard
+                </Link>
 
               <h2>Trades</h2>
 

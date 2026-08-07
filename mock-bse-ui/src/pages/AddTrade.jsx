@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 import tradeService from "../services/tradeService";
 import clientService from "../services/clientService";
+import { Link } from "react-router-dom";
 
 const AddTrade = () => {
     const navigate = useNavigate();
@@ -92,6 +93,10 @@ const AddTrade = () => {
     return (
 
         <div className="container mt-4">
+
+            <Link to="/" className="btn btn-primary mb-3">
+                ← Dashboard
+            </Link>
 
             <h2 className="mb-4">Add Trade</h2>
 

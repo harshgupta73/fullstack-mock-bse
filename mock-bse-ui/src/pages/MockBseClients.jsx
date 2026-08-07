@@ -3,6 +3,7 @@ import mockBseService from "../services/mockBseService";
 import Pagination from "../components/Pagination";
 
 import sseService from "../services/sseService";
+import { Link } from "react-router-dom";
 
 const MockBseClients = () => {
     const [clients, setClients] = useState([]);
@@ -81,6 +82,10 @@ const MockBseClients = () => {
         <div className="container mt-4">
 
             <div className="d-flex justify-content-between align-items-center mb-3">
+
+                <Link to="/" className="btn btn-primary mb-3">
+                    ← Dashboard
+                </Link>                
 
                 <h2>Mock BSE Clients</h2>
 
