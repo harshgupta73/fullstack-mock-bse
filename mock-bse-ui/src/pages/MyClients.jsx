@@ -86,7 +86,7 @@ const MyClients = () => {
 
       <div className="container mt-4">
 
-          <Link to="/" className="btn btn-primary">
+          <Link to="/" className="btn btn-primary me-5">
                 ← Dashboard
           </Link>        
 

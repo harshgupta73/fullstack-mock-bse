@@ -79,7 +79,7 @@ const EditClient = () => {
 
     return (
 
-        <div className="container mt-4">
+        <div className="container mt-4 rounded border shadow p-4">
 
             <Link to="/" className="btn btn-primary mb-3">
                 ← Dashboard
