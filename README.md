@@ -414,11 +414,43 @@ npm run dev
 
 # 🌐 Live Demo
 
-### Frontend
+## Frontend
+
 https://fullstack-mock-bse.vercel.app
 
-### Backend
+---
+
+## Backend
+
+The backend is a REST API built with Spring Boot. Visiting the root URL directly returns a **404 (Whitelabel Error Page)** because no homepage is configured.
+
+You can test the backend using the API endpoints below.
+
+Base URL:
+
 https://fullstack-mock-bse.onrender.com
+
+### Example Endpoints
+
+GET Employees
+
+https://fullstack-mock-bse.onrender.com/employees
+
+GET Clients
+
+https://fullstack-mock-bse.onrender.com/clients
+
+GET Trades
+
+https://fullstack-mock-bse.onrender.com/trades
+
+GET Mock BSE Clients
+
+https://fullstack-mock-bse.onrender.com/bse/clients
+
+GET Mock BSE Trades
+
+https://fullstack-mock-bse.onrender.com/bse/trades
 
 ---
 
