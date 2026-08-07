@@ -86,7 +86,7 @@ const MyTrades = () => {
 
         <div className="container mt-4">
 
-            <Link to="/" className="btn btn-primary mb-3">
+            <Link to="/" className="btn btn-primary">
                 ← Dashboard
             </Link>
 
