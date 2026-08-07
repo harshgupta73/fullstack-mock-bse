@@ -86,9 +86,11 @@ const MyTrades = () => {
 
         <div className="container mt-4">
 
-            <Link to="/" className="btn btn-primary me-5">
-                ← Dashboard
-            </Link>
+            <div className="d-flex justify-content-end mb-3">
+                <Link to="/" className="btn btn-primary">
+                    ← Dashboard
+                </Link>
+            </div>
 
             <h2 className="mb-4">Employee Trades</h2>
 
